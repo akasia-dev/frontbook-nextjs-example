@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import PrimaryTest from "../component/primary-test";
+import PrimaryTest from "../component/PrimaryTest";
 
 const Home: NextPage = () => {
   return (
