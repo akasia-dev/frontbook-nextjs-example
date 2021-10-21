@@ -4,8 +4,8 @@
     "target": "es5",
     "jsx": "preserve",
     "paths": {
-      "component/*": [
-        "component/*"
+      "components/*": [
+        "components/*"
       ]
     },
     "lib": [

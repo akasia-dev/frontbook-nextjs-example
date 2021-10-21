@@ -13,6 +13,8 @@ export default {
   },
 
   port: 5000,
+
+  componentFolderName: "components",
   webpack: {
     // * Styled JSX + SCSS
     module: {
