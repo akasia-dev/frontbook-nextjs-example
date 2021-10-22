@@ -18,6 +18,7 @@ export default {
   ignoreComponents: ["components/next/PrefetchLink"],
   disableDefaultWebpackConfig: false,
   disablePreactInjection: false,
+  publicServePaths: ["./public"],
 
   webpack: {
     // * Styled JSX + SCSS
