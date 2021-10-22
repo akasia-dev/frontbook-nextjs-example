@@ -3,6 +3,8 @@ import { IFrontbookConfig } from "frontbook-react";
 import { loader as styledJSX } from "styled-jsx/webpack";
 
 export default {
+  port: 5002,
+
   title: "Component Conti Page",
   subtitle: "🧤 Component Conti Page",
   description:
@@ -12,9 +14,11 @@ export default {
     "Frontbook Github": "https://github.com/akasia-dev/frontbook",
   },
 
-  port: 5000,
-
   componentFolderName: "components",
+  ignoreComponents: ["components/next/PrefetchLink"],
+  disableDefaultWebpackConfig: false,
+  disablePreactInjection: false,
+
   webpack: {
     // * Styled JSX + SCSS
     module: {
