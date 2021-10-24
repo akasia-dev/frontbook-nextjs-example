@@ -10,7 +10,8 @@
     "lint": "next lint",
     "frontbook-dev": "frontbook-react dev",
     "frontbook-export": "frontbook-react export",
-    "frontbook-watch": "frontbook-react watch"
+    "frontbook-watch": "frontbook-react watch",
+    "prestart": "npx prestart"
   },
   "dependencies": {
     "next": "11.1.2",
