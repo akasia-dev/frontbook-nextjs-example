@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "browser": "true",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npx prestart && next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
-    "frontbook-dev": "frontbook-react dev",
-    "frontbook-export": "frontbook-react export",
-    "frontbook-watch": "frontbook-react watch",
+    "frontbook-dev": "npx prestart && frontbook-react dev",
+    "frontbook-export": "npx prestart && frontbook-react export",
+    "frontbook-watch": "npx prestart && frontbook-react watch",
     "prestart": "npx prestart"
   },
   "dependencies": {
