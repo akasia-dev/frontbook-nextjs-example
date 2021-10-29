@@ -8,7 +8,7 @@
     "start": "next start",
     "export": "next export",
     "lint": "next lint",
-    "frontbook-dev": "npx prestart && frontbook-react dev",
+    "frontbook-dev": "frontbook-react dev",
     "frontbook-export": "npx prestart && frontbook-react export",
     "frontbook-watch": "npx prestart && frontbook-react watch",
     "prestart": "npx prestart"
@@ -24,7 +24,7 @@
     "eslint": "8.0.1",
     "eslint-config-next": "11.1.2",
     "file-loader": "^6.2.0",
-    "frontbook-react": "^1.1.29",
+    "frontbook-react": "^1.1.32",
     "node-sass": "^6.0.1",
     "postcss": "^8.3.9",
     "postcss-flexbugs-fixes": "^5.0.2",
